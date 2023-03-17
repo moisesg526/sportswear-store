@@ -1,39 +1,40 @@
 .navbar {
-    background-color: #fff;
-    padding: 10px;
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .left-navbar {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    font-style: italic;
-    color: #1C6758;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-style: italic;
+  color: #1c6758;
 }
 
 .jets-img {
-    border-radius: 4px;
-    width: 60px;
-    max-width: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-left: 30px;
-    padding-right: 10px;
+  border-radius: 4px;
+  width: 60px;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 30px;
+  padding-right: 10px;
 }
 
-.middle-navbar {
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    align-items: center;
-    flex-direction: column;
-    row-gap: 20px;
+.right-navbar {
+  margin-right: 4%;
+  font-size: 14px;
 }
 
 .search {
-    width: 20%;
+  width: 100%;
+  padding: 6px;
+  border-radius: 6px;
 }
 
 ul li {
-    font-size: 16px;
-} 
+  font-size: 14px;
+  display: none;
+}

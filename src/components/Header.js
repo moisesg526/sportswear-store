@@ -1,6 +1,5 @@
 import "../styles/Header.css";
 import { React, useState } from "react";
-import TextField from "@mui/material/TextField";
 import List from "./List";
 
 function Header() {
@@ -20,21 +19,21 @@ function Header() {
         />
         <h2>JETS SHOP</h2>
       </div>
-      <div className="middle-navbar">
-        <div className="search">
-          <TextField
-            id="outlined-basic"
-            onChange={inputHandler}
-            variant="outlined"
-            fullWidth
-            label="Search"
-          />
-        </div>
+      <div className="right-navbar">
+        <input id="searchbar" className="search" onChange={inputHandler} type="text"
+         placeholder="Search"/>
         <List input={inputText} />
       </div>
-      <div className="right-navbar"></div>
     </nav>
   );
 }
 
 export default Header;
+
+// <TextField
+//id="outlined-basic"
+//onChange={inputHandler}
+//variant="outlined"
+//fullWidth
+//label="Search"
+///>
