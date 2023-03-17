@@ -1,0 +1,61 @@
+[{
+    "id": 1,
+    "img":"",
+    "gender": "female male",
+    "color": "green",
+    "type": "jersey"
+}, {
+    "id": 2,
+    "img":"",
+    "gender": "male",
+    "color": "green",
+    "type": "hat"
+}, {
+    "id": 3,
+    "img":"",
+    "gender": "male",
+    "color": "black",
+    "type": "shirt"
+}, {
+    "id": 4,
+    "img":"",
+    "gender": "male",
+    "color": "green",
+    "type": "sweater"
+}, {
+    "id": 5,
+    "img":"",
+    "gender": "male",
+    "color": "green",
+    "type": "shirt"
+}, {
+    "id": 6,
+    "img":"",
+    "gender": "female",
+    "color": "green",
+    "type": "shirt"
+}, {
+    "id": 7,
+    "img":"",
+    "gender": "male",
+    "color": "black",
+    "type": "sweater"
+}, {
+    "id": 8,
+    "img":"",
+    "gender": "female",
+    "color": "black",
+    "type": "jacket"
+}, {
+    "id": 9,
+    "img":"",
+    "gender": "male",
+    "color": "green",
+    "type": "jacket"
+}, {
+    "id": 10,
+    "img":"",
+    "gender": "female",
+    "color": "black",
+    "type": "shirt"
+}] 

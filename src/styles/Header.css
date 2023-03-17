@@ -20,3 +20,20 @@
     padding-left: 30px;
     padding-right: 10px;
 }
+
+.middle-navbar {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.search {
+    width: 20%;
+}
+
+ul li {
+    font-size: 16px;
+} 
