@@ -1,3 +1,4 @@
+import FreeShipping from "./components/FreeShipping";
 import Header from "./components/Header";
 import Signup from "./components/Signup";
 function App() {
@@ -5,6 +6,7 @@ function App() {
     <div>
       <Signup />
       <Header />
+      <FreeShipping />
     </div>
   );
 }
