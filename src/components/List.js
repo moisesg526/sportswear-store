@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React } from "react";
 import Aparell from "../Aparell.json";
 
 function List(props) {

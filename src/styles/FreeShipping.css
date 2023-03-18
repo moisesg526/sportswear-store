@@ -5,6 +5,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 6px 14px;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
 }
 
 .inner-ribbon-right {
@@ -14,4 +17,17 @@
 
 .right {
     padding-left: 40px;
+}
+
+.bold {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.free {
+    font-size: 24px;
+}
+
+.click {
+    font-size: 8px;
 }
