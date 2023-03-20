@@ -19,7 +19,10 @@ function Footer() {
         <a href="#">My Account</a>
         <a href="#">About Us</a>
       </div>
-      <div className="signup"></div>
+      <div className="signup">
+        <h5>Stay updated on sales, new items and more</h5>
+        <button type="text" className="signup-btn">SIGN UP AND SAVE 10%</button>
+      </div>
     </div>
   );
 }
