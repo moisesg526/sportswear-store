@@ -31,3 +31,10 @@
 .click {
     font-size: 8px;
 }
+
+#countdown {
+    background-color: #fff;
+    color: #000;
+    margin-top: 6px;
+    padding: 10px;
+}

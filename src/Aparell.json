@@ -1,61 +1,81 @@
 [{
     "id": 1,
-    "img":"",
-    "gender": "female male",
-    "color": "green",
-    "type": "jersey"
+    "img":"../images/blackjersey.png",
+    "gender": "Male",
+    "price":"$169.99",
+    "color": "Black",
+    "type": "Jersey",
+    "description": "Men's Nike Stealth Black New York Jersey"
 }, {
     "id": 2,
-    "img":"",
-    "gender": "male",
-    "color": "green",
-    "type": "hat"
+    "img":"src/images/greenhat.png",
+    "gender": "Male Female",
+    "price":"$35.99",
+    "color": "Green",
+    "type": "Hat",
+    "description": "Men's and Female Green hat with logo"
 }, {
     "id": 3,
     "img":"",
-    "gender": "male",
-    "color": "black",
-    "type": "shirt"
+    "gender": "Male",
+    "price":"$25.99",
+    "color": "Black",
+    "type": "Shirt",
+    "description": "Men's Nike Black Shirt With Name And Number"
 }, {
     "id": 4,
     "img":"",
-    "gender": "male",
-    "color": "green",
-    "type": "sweater"
+    "gender": "Male",
+    "price":"$75.99",
+    "color": "Green",
+    "type": "Sweater",
+    "description": "Men's Nike Stealth Green New York Pullover long Sleeve Hoodie"
 }, {
     "id": 5,
     "img":"",
-    "gender": "male",
-    "color": "green",
-    "type": "shirt"
+    "gender": "Male",
+    "price":"$19.99",
+    "color": "Green",
+    "type": "Shirt",
+    "description": "Men's Nike Stealth Green New York Jersey"
 }, {
     "id": 6,
     "img":"",
-    "gender": "female",
-    "color": "green",
-    "type": "shirt"
+    "gender": "Female",
+    "price":"$25.99",
+    "color": "Green",
+    "type": "Shirt",
+    "description": "Female Nike Stealth Green T-Shirt"
 }, {
     "id": 7,
     "img":"",
-    "gender": "male",
-    "color": "black",
-    "type": "sweater"
+    "gender": "Male",
+    "price":"$99.99",
+    "color": "Black",
+    "type": "Sweater",
+    "description": "Men's Nike Stealth Black Pullover Hoodie"
 }, {
     "id": 8,
     "img":"",
-    "gender": "female",
-    "color": "black",
-    "type": "jacket"
+    "gender": "Female",
+    "price":"$199.99",
+    "color": "Black",
+    "type": "Jacket",
+    "description": "Female's Nike Stealth Black Jacket"
 }, {
     "id": 9,
     "img":"",
-    "gender": "male",
-    "color": "green",
-    "type": "jacket"
+    "gender": "Male",
+    "price":"$199.99",
+    "color": "Green",
+    "type": "Jacket",
+    "description": "Male's Nike Stealth Green Jacket"
 }, {
     "id": 10,
     "img":"",
-    "gender": "female",
-    "color": "black",
-    "type": "shirt"
+    "gender": "Female",
+    "price":"$19.99",
+    "color": "Black",
+    "type": "Shirt",
+    "description": "Female's Nike Stealth Black T-shirt"
 }] 

@@ -1,0 +1,8 @@
+.merch-card{
+    display: flex;
+}
+
+.info {
+    padding: 20px;
+    display: block;
+}

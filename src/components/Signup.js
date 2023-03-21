@@ -1,5 +1,4 @@
 import "../styles/Signup.css";
-
 function Signup() {
   return (
     <div className="signup-banner">
@@ -11,7 +10,8 @@ function Signup() {
         <a href="#">Track Order</a>
         <a href="#">Help</a>
         <a href="#">My Account</a>
-        <a href="#"></a>
+        <a href="#"><i class="fas fa-shopping-cart"></i>
+        </a>
       </div>
     </div>
   );
