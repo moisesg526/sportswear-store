@@ -1,8 +1,11 @@
 .merch-card{
-    display: flex;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .info {
     padding: 20px;
-    display: block;
-}
+    display: inline-block;
+    margin:0 25px 25px;
+} 

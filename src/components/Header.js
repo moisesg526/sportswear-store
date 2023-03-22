@@ -14,7 +14,7 @@ function Header() {
       <div className="left-navbar">
         <img
           className="jets-img"
-          src={require("../images/nyjets.png")}
+          src={"images/nyjets.png"}
           alt="NY Jets logo"
         />
         <h2>JETS SHOP</h2>

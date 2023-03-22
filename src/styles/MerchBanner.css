@@ -1,0 +1,8 @@
+.banner {
+    background-color: #1c6758;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    cursor: pointer;
+}
