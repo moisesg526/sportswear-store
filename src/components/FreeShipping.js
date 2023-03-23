@@ -15,7 +15,7 @@ function FreeShipping() {
     let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     document.getElementById("countdown").innerHTML =
-      "[" + days + "d " + hours + "h " + minutes + "m " + seconds + "s ]";
+      days + "D " + hours + "H " + minutes + "M " + seconds + "S";
     if (distance < 0) {
       clearInterval(x);
       document.getElementById("countdown").innerHTML = "Free Shipping ended";
@@ -25,7 +25,10 @@ function FreeShipping() {
     <>
       <div className="ribbon" onClick={() => setButtonPopup(true)}>
         <div className="inner-ribbon-left">
-          HURRY! ENDS IN : <p id="countdown"></p>
+          <div className="inner-left-text">HURRY! ENDS IN : </div>{" "}
+          <div className="inner-left-countdown">
+            <p id="countdown"></p>
+          </div>
         </div>
         <div className="inner-ribbon-right">
           <div className="free right">

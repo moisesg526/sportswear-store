@@ -10,6 +10,15 @@
     cursor: pointer;
 }
 
+.inner-ribbon-left {
+    display: flex;
+    align-items: center;
+}
+
+.inner-left-countdown {
+    padding-left: 10px;
+}
+
 .inner-ribbon-right {
     display: flex;
     align-items: center;
