@@ -7,7 +7,7 @@
   background-color: #eeeeee;
   display: flex;
   justify-content: space-between;
-  padding: 0 24px 20px;
+  padding: 0 40px 20px;
 }
 
 .footer a {
@@ -33,6 +33,15 @@ h5 {
   cursor: pointer;
   background-color: #1c6758;
   color: #fff;
+}
+
+.link-sections {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pad {
+  padding-left: 100px;
 }
 
 @media only screen and (max-width: 429px) {

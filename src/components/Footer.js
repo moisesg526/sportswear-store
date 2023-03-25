@@ -14,13 +14,13 @@ function Footer() {
             <a href="#">Help</a>
             <a href="#">Track Order</a>
           </div>
-          <div className="shipping">
+          <div className="shipping pad">
             <h4>Worry Free Shipping</h4>
             <a href="#">Safe Shopping</a>
             <a href="#">Shipping Rates</a>
             <a href="#">Return Policy</a>
           </div>
-          <div className="info-footer">
+          <div className="info-footer pad">
             <h4>Information</h4>
             <a href="#">My Account</a>
             <a href="#">About Us</a>
