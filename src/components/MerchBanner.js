@@ -6,10 +6,10 @@ function MerchBanner() {
             <h4>Jerseys</h4>
             <h4>Men</h4>
             <h4>Women</h4>
-            <h4>Shirts</h4>
-            <h4>Sweaters</h4>
-            <h4>Hats</h4>
-            <h4>Jackets</h4>
+            <h4 className="no-show">Shirts</h4>
+            <h4 className="no-show">Sweaters</h4>
+            <h4 className="no-show">Hats</h4>
+            <h4 className="no-show">Jackets</h4>
         </div>
     )
 }

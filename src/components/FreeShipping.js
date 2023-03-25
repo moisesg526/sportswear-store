@@ -31,18 +31,19 @@ function FreeShipping() {
           </div>
         </div>
         <div className="inner-ribbon-right">
-          <div className="free right">
-            {" "}
-            <h1>FREE SHIPPING</h1>
-          </div>
-          <div className="on-price right">
-            {" "}
-            <h4>ON ORDERS OVER $25</h4>
+          <div className="block">
+            <div className="free right">
+              {" "}
+              <h1>FREE SHIPPING</h1>
+            </div>
+            <div className="on-price right">
+              {" "}
+              <h4>ON ORDERS OVER $25</h4>
+            </div>
           </div>
           <div className="code right">
             <h4>
-              [&nbsp;&nbsp; USE CODE: <span className="bold">KICK</span>{" "}
-              &nbsp;&nbsp;]
+              USE CODE: <span className="bold">KICK</span>{" "}
             </h4>
           </div>
           <div className="click right">

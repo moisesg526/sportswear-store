@@ -6,9 +6,9 @@ function Signup() {
         SIGN UP AND SAVE 10%
       </a>
       <div className="rightSide">
-        <a href="#">Gift Cards</a>
+        <a href="#" className="no-show">Gift Cards</a>
         <a href="#">Track Order</a>
-        <a href="#">Help</a>
+        <a href="#" className="no-show">Help</a>
         <a href="#">My Account</a>
         <a href="#"><i class="fas fa-shopping-cart"></i>
         </a>
