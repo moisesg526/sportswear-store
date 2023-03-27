@@ -1,18 +1,13 @@
-import Footer from "./components/Footer";
-import FreeShipping from "./components/FreeShipping";
-import Header from "./components/Header";
-import Merch from "./components/Merch";
-import MerchBanner from "./components/MerchBanner";
-import Signup from "./components/Signup";
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import Jerseys from "./components/Jerseys";
 function App() {
   return (
     <div>
-      <Signup />
-      <Header />
-      <MerchBanner />
-      <FreeShipping />
-      <Merch />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/jerseys" element={<Jerseys/>}/>
+      </Routes>
     </div>
   );
 }
