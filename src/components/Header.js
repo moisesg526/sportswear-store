@@ -1,6 +1,7 @@
 import "../styles/Header.css";
 import { React, useState } from "react";
 import List from "./List";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [inputText, setInputText] = useState("");
@@ -11,17 +12,24 @@ function Header() {
   };
   return (
     <nav className="navbar">
-      <div className="left-navbar">
-        <img
-          className="jets-img"
-          src={"images/nyjets.png"}
-          alt="NY Jets logo"
-        />
-        <h2>JETS SHOP</h2>
-      </div>
+      <Link to="/" className="nav-link">
+        <div className="left-navbar">
+          <img
+            className="jets-img"
+            src={"images/nyjets.png"}
+            alt="NY Jets logo"
+          />
+          <h2>JETS SHOP</h2>
+        </div>
+      </Link>
       <div className="right-navbar">
-        <input id="searchbar" className="search" onChange={inputHandler} type="text"
-         placeholder="Search"/>
+        <input
+          id="searchbar"
+          className="search"
+          onChange={inputHandler}
+          type="text"
+          placeholder="Search"
+        />
         <List input={inputText} />
       </div>
     </nav>

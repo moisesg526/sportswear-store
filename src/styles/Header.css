@@ -39,6 +39,10 @@ ul li {
   display: none;
 }
 
+.nav-link {
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 429px) {
   .navbar {
     top: 50%;
