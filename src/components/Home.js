@@ -9,7 +9,6 @@ function Home() {
       <Signup />
       <Header />
       <MerchBanner />
-      <FreeShipping />
     </div>
   );
 }

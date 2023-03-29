@@ -37,11 +37,3 @@ function Header() {
 }
 
 export default Header;
-
-// <TextField
-//id="outlined-basic"
-//onChange={inputHandler}
-//variant="outlined"
-//fullWidth
-//label="Search"
-///>

@@ -1,10 +1,10 @@
 import Data from "../Aparell.json";
 import "../styles/Merch.css";
-function Jerseys() {
+function Shirts() {
   return (
     <div className="merch-card">
       {Data.map((card) => {
-        if (card.type === "Jersey") {
+        if (card.type === "Shirt") {
           return (
             <div div className="info">
               <img src={card.img} alt={card.color + card.type} />
@@ -21,4 +21,4 @@ function Jerseys() {
   );
 }
 
-export default Jerseys;
+export default Shirts;

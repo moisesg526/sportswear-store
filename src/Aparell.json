@@ -1,81 +1,110 @@
-[{
+[
+  {
     "id": 1,
-    "img":"images/blackjersey.png",
+    "img": "images/blackjersey.png",
     "gender": "Male",
-    "price":"$169.99",
+    "price": "$169.99",
     "color": "Black",
     "type": "Jersey",
     "description": "Men's Nike Stealth Black New York Jersey"
-}, {
+  },
+  {
     "id": 2,
-    "img":"images/greenhat.png",
+    "img": "images/greenhat.png",
     "gender": "Male Female",
-    "price":"$35.99",
+    "price": "$35.99",
     "color": "Green",
     "type": "Hat",
     "description": "Men's and Female Green hat with logo"
-}, {
+  },
+  {
     "id": 3,
-    "img":"images/mens-black-shirt.png",
+    "img": "images/mens-black-shirt.png",
     "gender": "Male",
-    "price":"$25.99",
+    "price": "$25.99",
     "color": "Black",
     "type": "Shirt",
     "description": "Men's Nike Black Shirt With Name And Number"
-}, {
+  },
+  {
     "id": 4,
-    "img":"images/mens-green-sweater.png",
+    "img": "images/mens-green-sweater.png",
     "gender": "Male",
-    "price":"$75.99",
+    "price": "$75.99",
     "color": "Green",
     "type": "Sweater",
     "description": "Men's Nike Stealth Green New York Pullover long Sleeve Hoodie"
-}, {
+  },
+  {
     "id": 5,
-    "img":"images/mens-green-shirt.png",
+    "img": "images/mens-green-shirt.png",
     "gender": "Male",
-    "price":"$19.99",
+    "price": "$19.99",
     "color": "Green",
     "type": "Shirt",
     "description": "Men's Nike Stealth Green New York Jersey"
-}, {
+  },
+  {
     "id": 6,
-    "img":"images/womens-green-shirt.png",
+    "img": "images/womens-green-shirt.png",
     "gender": "Female",
-    "price":"$25.99",
+    "price": "$25.99",
     "color": "Green",
     "type": "Shirt",
     "description": "Female Nike Stealth Green T-Shirt"
-}, {
+  },
+  {
     "id": 7,
-    "img":"images/mens-black-sweater.png",
+    "img": "images/whitejersey.png",
     "gender": "Male",
-    "price":"$99.99",
+    "price": "$169.99",
+    "color": "White",
+    "type": "Jersey",
+    "description": "Men's Nike White New York Jersey"
+  },
+  {
+    "id": 8,
+    "img": "images/mens-black-sweater.png",
+    "gender": "Male",
+    "price": "$99.99",
     "color": "Black",
     "type": "Sweater",
     "description": "Men's Nike Stealth Black Pullover Hoodie"
-}, {
-    "id": 8,
-    "img":"images/womens-black-jacket.png",
+  },
+  {
+    "id": 9,
+    "img": "images/womens-black-jacket.png",
     "gender": "Female",
-    "price":"$199.99",
+    "price": "$199.99",
     "color": "Black",
     "type": "Jacket",
     "description": "Female's Nike Stealth Black Jacket"
-}, {
-    "id": 9,
-    "img":"images/mens-green-jacket.png",
+  },
+  {
+    "id": 10,
+    "img": "images/mens-green-jacket.png",
     "gender": "Male",
-    "price":"$199.99",
+    "price": "$199.99",
     "color": "Green",
     "type": "Jacket",
     "description": "Male's Nike Stealth Green Jacket"
-}, {
-    "id": 10,
-    "img":"images/womens-black-shirt.png",
+  },
+  {
+    "id": 11,
+    "img": "images/womens-black-shirt.png",
     "gender": "Female",
-    "price":"$39.99",
+    "price": "$39.99",
     "color": "Black",
     "type": "Shirt",
     "description": "Female's Nike Stealth Black T-shirt"
-}] 
+  },
+  {
+    "id": 12,
+    "img": "images/greenjersey.png",
+    "gender": "Male",
+    "price": "$169.99",
+    "color": "Green",
+    "type": "Jersey",
+    "description": "Men's Nike Gotham Green New York Jersey"
+  }
+]
