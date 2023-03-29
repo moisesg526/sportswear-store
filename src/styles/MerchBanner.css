@@ -7,21 +7,19 @@
   cursor: pointer;
 }
 
-.links:link {
+.merchlink {
+  color: #fff;
   text-decoration: none;
   transition: all 0.2s ease-in;
+}
+
+.merchlink:visited {
   color: #fff;
 }
 
-.links:visited {
-  color: #fff;
-}
-
-.links:hover {
+.merchlink:hover {
   box-shadow: 0 5px 15px rgba(227, 227, 227, 0.4);
 }
-
-
 
 @media only screen and (max-width: 429px) {
   .no-show {
